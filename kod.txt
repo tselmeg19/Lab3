@@ -1,0 +1,94 @@
+
+Admin@DESKTOP-STJDBB1 MINGW64 ~
+$ cd lab333
+bash: cd: lab333: No such file or directory
+
+Admin@DESKTOP-STJDBB1 MINGW64 ~
+$ cd c:
+
+Admin@DESKTOP-STJDBB1 MINGW64 /c
+$ cd lab333
+
+Admin@DESKTOP-STJDBB1 MINGW64 /c/lab333 (main)
+$ git add lab333
+fatal: pathspec 'lab333' did not match any files
+
+Admin@DESKTOP-STJDBB1 MINGW64 /c/lab333 (main)
+$ git init
+Reinitialized existing Git repository in C:/lab333/.git/
+
+Admin@DESKTOP-STJDBB1 MINGW64 /c/lab333 (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   dasgal11.py
+        new file:   dasgal22.py
+
+
+Admin@DESKTOP-STJDBB1 MINGW64 /c/lab333 (main)
+$ git commit -m "hiii"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Admin@DESKTOP-STJDBB1.(none)')
+
+Admin@DESKTOP-STJDBB1 MINGW64 /c/lab333 (main)
+$ git config --global user.email "tseeme0102@gmail.com"
+
+Admin@DESKTOP-STJDBB1 MINGW64 /c/lab333 (main)
+$ git config --global user.name "tselmeg19"
+
+Admin@DESKTOP-STJDBB1 MINGW64 /c/lab333 (main)
+$ git commit -m "hiii"
+[main (root-commit) c63a4fd] hiii
+ 2 files changed, 22 insertions(+)
+ create mode 100644 dasgal11.py
+ create mode 100644 dasgal22.py
+
+Admin@DESKTOP-STJDBB1 MINGW64 /c/lab333 (main)
+$ $ git ro
+
+bash: $: command not found
+
+Admin@DESKTOP-STJDBB1 MINGW64 /c/lab333 (main)
+$
+git remote add origin https://github.com/tselmeg19/Lab3.git
+error: remote origin already exists.
+
+Admin@DESKTOP-STJDBB1 MINGW64 /c/lab333 (main)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/tselmeg19/Lab3.git'
+
+Admin@DESKTOP-STJDBB1 MINGW64 /c/lab333 (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 755 bytes | 755.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/tselmeg19/Lab3.git
+ * [new branch]      main -> main
+
+Admin@DESKTOP-STJDBB1 MINGW64 /c/lab333 (main)
+$ touch kod.txt
+
+Admin@DESKTOP-STJDBB1 MINGW64 /c/lab333 (main)
+$ code kod.txt
+
+Admin@DESKTOP-STJDBB1 MINGW64 /c/lab333 (main)
+$
